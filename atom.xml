@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HXY&#39;S BLOGS</title>
+  
+  
+  <link href="http://www.huaxianyi.com/atom.xml" rel="self"/>
+  
+  <link href="http://www.huaxianyi.com/"/>
+  <updated>2020-11-04T09:19:45.384Z</updated>
+  <id>http://www.huaxianyi.com/</id>
+  
+  <author>
+    <name>画仙衣</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>make</title>
+    <link href="http://www.huaxianyi.com/2020/11/04/make/"/>
+    <id>http://www.huaxianyi.com/2020/11/04/make/</id>
+    <published>2020-11-04T08:32:42.000Z</published>
+    <updated>2020-11-04T09:19:45.384Z</updated>
+    
+    <content type="html"><![CDATA[<p>8 个程序员接私活的网站</p><p>2020年互联网圈不好混，不是每个公司都能像腾讯云每人一部iPhone 11，不少公司今年已经没了年终奖，不要抱怨，因为有的小伙伴估计工作都没了。</p><p>今天给大家推荐几个江湖卖艺赚钱养家的好渠道（程序员：8个接私活的网站，只要你有码，那“我”就有钱！）一起来看看吧！</p><!-- toc --><h2 id="程序员客栈：程序员的经纪人"><a href="#程序员客栈：程序员的经纪人" class="headerlink" title="程序员客栈：程序员的经纪人"></a>程序员客栈：程序员的经纪人</h2><p><a href="https://www.proginn.com/">链接</a></p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">https://www.proginn.com/<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-sh" data-language="sh"><code class="language-sh">$ npm install --save kind-of<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/JdLkEI9sZffPFibLEVmDs8ibkuNT3ibf5DwAVdrAjAUicT0VUpmZ4PloickgWvrs8sln19AbIZajYDz0kZLbfIkEdqQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="avatar"></p><h2 id="快码众包-让互联网产品开发更快速"><a href="#快码众包-让互联网产品开发更快速" class="headerlink" title="快码众包-让互联网产品开发更快速"></a>快码众包-让互联网产品开发更快速</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">https://www.kuai.ma/<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/JdLkEI9sZffPFibLEVmDs8ibkuNT3ibf5Dwn334Dcrt5jJHvA2hNUxjZjPrHqMYLxphXYhqu0FE7BciatpQqg3mXRw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="avatar"></p><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+    
+    
+    <summary type="html">给你 8 个程序员接私活的网站</summary>
+    
+    
+    
+    <category term="make money" scheme="http://www.huaxianyi.com/categories/make-money/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>make</title>
+    <link href="http://www.huaxianyi.com/2020/11/04/science_network/"/>
+    <id>http://www.huaxianyi.com/2020/11/04/science_network/</id>
+    <published>2020-11-04T08:32:42.000Z</published>
+    <updated>2020-11-06T08:08:00.238Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文介绍的V2Ray搭建教程适合纯小白使用，并且需要购买VPS,介意花钱的可以不用看了</p><h2 id="V2Ray安装流程"><a href="#V2Ray安装流程" class="headerlink" title="V2Ray安装流程"></a>V2Ray安装流程</h2><h3 id="购买搬瓦工vps，买最便宜的即可"><a href="#购买搬瓦工vps，买最便宜的即可" class="headerlink" title="购买搬瓦工vps，买最便宜的即可"></a>购买搬瓦工vps，买最便宜的即可</h3><h3 id="重新安装支持bbr加速的系统"><a href="#重新安装支持bbr加速的系统" class="headerlink" title="重新安装支持bbr加速的系统"></a>重新安装支持bbr加速的系统</h3><p><img src="http://qiniu.huaxianyi.com/3bb680aa2c1e1ac98dad7c3ef837975a.png?e=1604653446&attname=&token=Vio9iPqmrWzhfsxUEb0gMyBpnjaSO9_L46z3LRf7:CF98zH_5ass5qoF96OTjTi3Xb-s=" alt="avatar"></p>]]></content>
+    
+    
+    <summary type="html">科学上网之------V2Ray</summary>
+    
+    
+    
+    <category term="科学上网" scheme="http://www.huaxianyi.com/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly_melody</title>
+    <link href="http://www.huaxianyi.com/2020/11/04/butterfly-melody/"/>
+    <id>http://www.huaxianyi.com/2020/11/04/butterfly-melody/</id>
+    <published>2020-11-04T08:05:43.000Z</published>
+    <updated>2020-11-04T08:28:08.195Z</updated>
+    
+    <content type="html"><![CDATA[<p>hexo主题设置，以butterfly为主题框架，添加melody主题侧边栏目录</p><h2 id="直接下载"><a href="#直接下载" class="headerlink" title="直接下载"></a>直接下载</h2><p><a href="https://github.com/huaixanyi/net-blog.git">net-blog</a></p>]]></content>
+    
+    
+    <summary type="html">hexo主题设置，以butterfly为主题框架，添加melody主题侧边栏目录</summary>
+    
+    
+    
+    <category term="hexo主题设置" scheme="http://www.huaxianyi.com/categories/hexo%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://www.huaxianyi.com/2020/10/30/me/"/>
+    <id>http://www.huaxianyi.com/2020/10/30/me/</id>
+    <published>2020-10-30T07:53:48.665Z</published>
+    <updated>2020-11-02T09:55:45.395Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="AAA"><a href="#AAA" class="headerlink" title="AAA"></a>AAA</h2><p>aaa</p><h2 id="BBB"><a href="#BBB" class="headerlink" title="BBB"></a>BBB</h2><p>aaa</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;AAA&quot;&gt;&lt;a href=&quot;#AAA&quot; class=&quot;headerlink&quot; title=&quot;AAA&quot;&gt;&lt;/a&gt;AAA&lt;/h2&gt;&lt;p&gt;aaa&lt;/p&gt;
+&lt;h2 id=&quot;BBB&quot;&gt;&lt;a href=&quot;#BBB&quot; class=&quot;headerlink&quot; title=&quot;BBB&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://www.huaxianyi.com/2020/10/30/hello-world/"/>
+    <id>http://www.huaxianyi.com/2020/10/30/hello-world/</id>
+    <published>2020-10-30T07:53:48.664Z</published>
+    <updated>2020-11-04T09:17:22.572Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    <category term="hello" scheme="http://www.huaxianyi.com/categories/hello/"/>
+    
+    
+  </entry>
+  
+</feed>
