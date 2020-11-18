@@ -1,118 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>HXY&#39;S BLOGS</title>
+  <title>Hua Xian Yi</title>
   
+  <subtitle>No accident in the world. All the miracles and happiness are created by ourselves.</subtitle>
+  <link href="https://blog.huaxianyi.com/atom.xml" rel="self"/>
   
-  <link href="http://www.huaxianyi.com/atom.xml" rel="self"/>
-  
-  <link href="http://www.huaxianyi.com/"/>
-  <updated>2020-11-04T09:19:45.384Z</updated>
-  <id>http://www.huaxianyi.com/</id>
+  <link href="https://blog.huaxianyi.com/"/>
+  <updated>2020-11-18T08:39:48.932Z</updated>
+  <id>https://blog.huaxianyi.com/</id>
   
   <author>
-    <name>画仙衣</name>
+    <name>Hua Xian Yi</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>make</title>
-    <link href="http://www.huaxianyi.com/2020/11/04/make/"/>
-    <id>http://www.huaxianyi.com/2020/11/04/make/</id>
-    <published>2020-11-04T08:32:42.000Z</published>
-    <updated>2020-11-04T09:19:45.384Z</updated>
+    <title>对象存储服务器Minio</title>
+    <link href="https://blog.huaxianyi.com/2020/11/18/technology/minio/"/>
+    <id>https://blog.huaxianyi.com/2020/11/18/technology/minio/</id>
+    <published>2020-11-18T03:33:24.000Z</published>
+    <updated>2020-11-18T08:39:48.932Z</updated>
     
-    <content type="html"><![CDATA[<p>8 个程序员接私活的网站</p><p>2020年互联网圈不好混，不是每个公司都能像腾讯云每人一部iPhone 11，不少公司今年已经没了年终奖，不要抱怨，因为有的小伙伴估计工作都没了。</p><p>今天给大家推荐几个江湖卖艺赚钱养家的好渠道（程序员：8个接私活的网站，只要你有码，那“我”就有钱！）一起来看看吧！</p><!-- toc --><h2 id="程序员客栈：程序员的经纪人"><a href="#程序员客栈：程序员的经纪人" class="headerlink" title="程序员客栈：程序员的经纪人"></a>程序员客栈：程序员的经纪人</h2><p><a href="https://www.proginn.com/">链接</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.proginn.com/</span><br></pre></td></tr></table></figure><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --save kind-of</span><br></pre></td></tr></table></figure><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/JdLkEI9sZffPFibLEVmDs8ibkuNT3ibf5DwAVdrAjAUicT0VUpmZ4PloickgWvrs8sln19AbIZajYDz0kZLbfIkEdqQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="avatar"></p><h2 id="快码众包-让互联网产品开发更快速"><a href="#快码众包-让互联网产品开发更快速" class="headerlink" title="快码众包-让互联网产品开发更快速"></a>快码众包-让互联网产品开发更快速</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.kuai.ma/</span><br></pre></td></tr></table></figure><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/JdLkEI9sZffPFibLEVmDs8ibkuNT3ibf5Dwn334Dcrt5jJHvA2hNUxjZjPrHqMYLxphXYhqu0FE7BciatpQqg3mXRw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="avatar"></p><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
-    
-    
-    <summary type="html">给你 8 个程序员接私活的网站</summary>
+    <content type="html"><![CDATA[<blockquote><p>官方介绍：<br>MinIO 是一个基于Apache License v2.0开源协议的对象存储服务。它兼容亚马逊S3云存储服务接口，非常适合于存储大容量非结构化的数据，例如图片、视频、日志文件、备份数据和容器/虚拟机镜像等，而一个对象文件可以是任意大小，从几kb到最大5T不等。<br>MinIO是一个非常轻量的服务,可以很简单的和其他应用的结合，类似 NodeJS, Redis 或者 MySQL。<br>相对于FastDFS,部署简单,有UI界面,MinIO号称是世界上速度最快的对象存储服务器</p></blockquote><h3 id="快速开始-本文使用系统CentOS-Linux-7-Core-x86-64"><a href="#快速开始-本文使用系统CentOS-Linux-7-Core-x86-64" class="headerlink" title="快速开始 本文使用系统CentOS Linux 7 (Core) x86_64"></a>快速开始 本文使用系统CentOS Linux 7 (Core) x86_64</h3><hr><p>本文是Minio的简单使用，更多相关文档请至Minio官网查阅<br><a href="https://docs.min.io/">Minio 官方文档</a>.</p><h3 id="下载二进制文件"><a href="#下载二进制文件" class="headerlink" title="下载二进制文件"></a>下载二进制文件</h3><hr><blockquote><p>GNU/Linux <a href="https://min.io/download#/linux">Minio 官方安装文档</a>.</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://dl.min.io/server/minio/release/linux-amd64/minio</span><br></pre></td></tr></table></figure><h3 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h3><hr><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">chmod +x minio</span><br><span class="line">MINIO_ACCESS_KEY=minioadmin MINIO_SECRET_KEY=minioadmin ./minio server /mnt/data</span><br></pre></td></tr></table></figure><p>如果想要换验证密钥可将 minioadmin 值替换为自己想要的</p><h3 id="使用MinIO浏览器进行验证"><a href="#使用MinIO浏览器进行验证" class="headerlink" title="使用MinIO浏览器进行验证"></a>使用MinIO浏览器进行验证</h3><hr><p>安装后使用浏览器访问 <code>http://127.0.0.1:9000</code> , 如果可以访问，则表示minio已经安装成功。<br><img src="https://img.huaxianyi.com/huaxianyi/minio_login.png" alt="minio_login_img"></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">用户名密码</span><br><span class="line">Access Key: minioadmin</span><br><span class="line">Secret Key: minioadmin</span><br></pre></td></tr></table></figure><h3 id="外网永久分享链接"><a href="#外网永久分享链接" class="headerlink" title="外网永久分享链接"></a>外网永久分享链接</h3><hr><p>Minio分享链接最多只有7天的有效期<br>minio提供了一个客户端工具。可以直接对minio server进行配置，将指定桶设置为公共永久可下载。</p><table><thead><tr><th>系统</th><th>系统内核</th><th>URL</th></tr></thead><tbody><tr><td>GNU/Linux</td><td>64-bit Intel</td><td><a href="https://dl.min.io/client/mc/release/linux-amd64/mc">https://dl.min.io/client/mc/release/linux-amd64/mc</a></td></tr><tr><td></td><td>64-bit PPC</td><td><a href="https://dl.min.io/client/mc/release/linux-amd64/mc">https://dl.min.io/client/mc/release/linux-amd64/mc</a></td></tr></tbody></table><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">https://dl.min.io/client/mc/release/linux-amd64/mc</span><br><span class="line">chmod +x mc</span><br></pre></td></tr></table></figure><blockquote><p>Shell别名 可以添加shell别名来覆盖默认的Unix工具命令。</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">alias</span> ls=<span class="string">&#x27;mc ls&#x27;</span></span><br><span class="line"><span class="built_in">alias</span> cp=<span class="string">&#x27;mc cp&#x27;</span></span><br><span class="line"><span class="built_in">alias</span> cat=<span class="string">&#x27;mc cat&#x27;</span></span><br><span class="line"><span class="built_in">alias</span> mkdir=<span class="string">&#x27;mc mb&#x27;</span></span><br><span class="line"><span class="built_in">alias</span> pipe=<span class="string">&#x27;mc pipe&#x27;</span></span><br><span class="line"><span class="built_in">alias</span> find=<span class="string">&#x27;mc find&#x27;</span></span><br></pre></td></tr></table></figure><blockquote><p>从MinIO服务获得URL、access key和secret key。<br>参数解析：<code>--api</code> API签名是可选参数，默认情况下，它被设置为”S3v4”。</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mc config host add minio http://<span class="variable">$&#123;ip&#125;</span>:&#123;port&#125; <span class="variable">$&#123;Access Key&#125;</span> <span class="variable">$&#123;Secret Key&#125;</span> --api s3v4</span><br></pre></td></tr></table></figure><blockquote><p>示例：</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mc config host add minio http://192.168.1.51 BKIKJAA5BMMU2RHO6IBB V7f1CwQqAcwo80UEIJEjc5gVQUSSx5ohQ9GSrr12 --api s3v4</span><br></pre></td></tr></table></figure><blockquote><p>验证：mc将所有的配置信息都存储在~/.mc/config.json文件中。</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat ~/.mc/config.json</span><br></pre></td></tr></table></figure><p><img src="https://img.huaxianyi.com/huaxianyi/minio_mc_yanzheng.png" alt="minio_mc_yanzheng"></p><blockquote><p>mc预先配置了云存储服务URL：  <code>https://play.min.io</code>  ，别名“play”。它是一个用于研发和测试的MinIO服务。如果想测试Amazon S3,你可以将“play”替换为“s3”。<br>自己服务的别名叫  <code>minio</code>  ,具体可在  <code>~/.mc/config.json</code>  文件查看</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## 示例:列出`https://play.min.io`上的所有存储桶。</span></span><br><span class="line">mc ls play</span><br><span class="line">[2016-03-22 19:47:48 PDT]     0B my-bucketname/</span><br><span class="line">[2016-03-22 22:01:07 PDT]     0B mytestbucket/</span><br><span class="line">[2016-03-22 20:04:39 PDT]     0B mybucketname/</span><br><span class="line">[2016-01-28 17:23:11 PST]     0B newbucket/</span><br><span class="line">[2016-03-20 09:08:36 PDT]     0B s3git-test/</span><br></pre></td></tr></table></figure><h4 id="policy命令-管理存储桶策略"><a href="#policy命令-管理存储桶策略" class="headerlink" title="policy命令 - 管理存储桶策略"></a>policy命令 - 管理存储桶策略</h4><hr><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">用法：</span><br><span class="line">  mc policy [FLAGS] PERMISSION TARGET</span><br><span class="line">  mc policy [FLAGS] TARGET</span><br><span class="line">  mc policy list [FLAGS] TARGET</span><br><span class="line"></span><br><span class="line">PERMISSION:</span><br><span class="line">  Allowed policies are: [none, download, upload, public].</span><br><span class="line"></span><br><span class="line">FLAGS:</span><br><span class="line">  --<span class="built_in">help</span>, -h                       显示帮助。</span><br></pre></td></tr></table></figure><blockquote><p>此处我们选择 <code>public</code> 策略。</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mc policy <span class="built_in">set</span> public minio/blog</span><br><span class="line">Access permission <span class="keyword">for</span> `minio/blog` is <span class="built_in">set</span> to `public`</span><br></pre></td></tr></table></figure><blockquote><p>接下来我们就可以永久访问啦 -&gt; <code>https://www.example.com/bucket/example.png</code></p></blockquote><h1 id="Have-fun"><a href="#Have-fun" class="headerlink" title="Have fun ^_^"></a>Have fun ^_^</h1><hr>]]></content>
     
     
-    
-    <category term="make money" scheme="http://www.huaxianyi.com/categories/make-money/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>make</title>
-    <link href="http://www.huaxianyi.com/2020/11/04/science_network/"/>
-    <id>http://www.huaxianyi.com/2020/11/04/science_network/</id>
-    <published>2020-11-04T08:32:42.000Z</published>
-    <updated>2020-11-06T10:28:56.309Z</updated>
-    
-    <content type="html"><![CDATA[<p>本文介绍的V2Ray搭建教程适合纯小白使用，并且需要购买VPS,介意花钱的可以不用看了</p><h2 id="V2Ray安装流程"><a href="#V2Ray安装流程" class="headerlink" title="V2Ray安装流程"></a>V2Ray安装流程</h2><p>##购买搬瓦工vps，买最便宜的即可<a href="https://bwh88.net/">搬瓦工官网</a></p><p><img src="http://img.huaxianyi.com/huaxianyi/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20201106180221.png" alt="avatar"></p><h2 id="重新安装支持bbr加速的系统"><a href="#重新安装支持bbr加速的系统" class="headerlink" title="重新安装支持bbr加速的系统"></a>重新安装支持bbr加速的系统</h2><p><img src="http://img.huaxianyi.com/huaxianyi/control.png" alt="avatar"></p><p><img src="http://img.huaxianyi.com/huaxianyi/install_os.png" alt="avatar"></p><h2 id="连接远程服务器，并安装v2ray"><a href="#连接远程服务器，并安装v2ray" class="headerlink" title="连接远程服务器，并安装v2ray"></a>连接远程服务器，并安装v2ray</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -s -L https:&#x2F;&#x2F;git.io&#x2F;v2ray.sh)</span><br></pre></td></tr></table></figure><h2 id="获取v2ray-url协议连接"><a href="#获取v2ray-url协议连接" class="headerlink" title="获取v2ray url协议连接"></a>获取v2ray url协议连接</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">v2ray url</span><br></pre></td></tr></table></figure><h2 id="安装windows客户端"><a href="#安装windows客户端" class="headerlink" title="安装windows客户端"></a>安装windows客户端</h2><p>v2rayN 是Windows平台上一款基于v2ray核心的简洁好用、功能强大的v2ray客户端，支持Vmess、Shadowsocks、Socks5等多种协议，也支持服务器订阅</p><p><a href="https://github.com/v2fly/v2ray-core/releases/tag/v4.32.0">v2rayN下载</a></p><h2 id="安装安卓客户端"><a href="#安装安卓客户端" class="headerlink" title="安装安卓客户端"></a>安装安卓客户端</h2><p><a href="https://github.com/2dust/v2rayNG/releases/tag/1.4.11">v2rayN安卓客户端</a></p>]]></content>
-    
-    
-    <summary type="html">科学上网之------V2Ray</summary>
+    <summary type="html">对象存储服务器 Minio</summary>
     
     
     
-    <category term="科学上网" scheme="http://www.huaxianyi.com/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    <category term="technology" scheme="https://blog.huaxianyi.com/categories/technology/"/>
     
     
-  </entry>
-  
-  <entry>
-    <title>butterfly_melody</title>
-    <link href="http://www.huaxianyi.com/2020/11/04/butterfly-melody/"/>
-    <id>http://www.huaxianyi.com/2020/11/04/butterfly-melody/</id>
-    <published>2020-11-04T08:05:43.000Z</published>
-    <updated>2020-11-04T08:28:08.195Z</updated>
-    
-    <content type="html"><![CDATA[<p>hexo主题设置，以butterfly为主题框架，添加melody主题侧边栏目录</p><h2 id="直接下载"><a href="#直接下载" class="headerlink" title="直接下载"></a>直接下载</h2><p><a href="https://github.com/huaixanyi/net-blog.git">net-blog</a></p>]]></content>
-    
-    
-    <summary type="html">hexo主题设置，以butterfly为主题框架，添加melody主题侧边栏目录</summary>
-    
-    
-    
-    <category term="hexo主题设置" scheme="http://www.huaxianyi.com/categories/hexo%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://www.huaxianyi.com/2020/10/30/me/"/>
-    <id>http://www.huaxianyi.com/2020/10/30/me/</id>
-    <published>2020-10-30T07:53:48.665Z</published>
-    <updated>2020-11-02T09:55:45.395Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="AAA"><a href="#AAA" class="headerlink" title="AAA"></a>AAA</h2><p>aaa</p><h2 id="BBB"><a href="#BBB" class="headerlink" title="BBB"></a>BBB</h2><p>aaa</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;AAA&quot;&gt;&lt;a href=&quot;#AAA&quot; class=&quot;headerlink&quot; title=&quot;AAA&quot;&gt;&lt;/a&gt;AAA&lt;/h2&gt;&lt;p&gt;aaa&lt;/p&gt;
-&lt;h2 id=&quot;BBB&quot;&gt;&lt;a href=&quot;#BBB&quot; class=&quot;headerlink&quot; title=&quot;BBB&quot;</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://www.huaxianyi.com/2020/10/30/hello-world/"/>
-    <id>http://www.huaxianyi.com/2020/10/30/hello-world/</id>
-    <published>2020-10-30T07:53:48.664Z</published>
-    <updated>2020-11-04T09:17:22.572Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
-    <category term="hello" scheme="http://www.huaxianyi.com/categories/hello/"/>
-    
+    <category term="Minio" scheme="https://blog.huaxianyi.com/tags/Minio/"/>
     
   </entry>
   
