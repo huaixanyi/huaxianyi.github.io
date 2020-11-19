@@ -4,19 +4,19 @@
   <url>
     <loc>https://blog.huaxianyi.com/2020/11/18/net/OvertTheWall/</loc>
     
-    <lastmod>2020-11-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.huaxianyi.com/2020/11/18/net/https/</loc>
-    
-    <lastmod>2020-11-18</lastmod>
+    <lastmod>2020-11-19</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.huaxianyi.com/2020/11/18/technology/minio/</loc>
+    
+    <lastmod>2020-11-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.huaxianyi.com/2020/11/18/net/https/</loc>
     
     <lastmod>2020-11-18</lastmod>
     
@@ -67,15 +67,22 @@
 
   <url>
     <loc>https://blog.huaxianyi.com/</loc>
-    <lastmod>2020-11-18</lastmod>
+    <lastmod>2020-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://blog.huaxianyi.com/tags/OvertTheWall/</loc>
+    <lastmod>2020-11-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.huaxianyi.com/tags/Minio/</loc>
-    <lastmod>2020-11-18</lastmod>
+    <lastmod>2020-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -83,8 +90,15 @@
 
   
   <url>
+    <loc>https://blog.huaxianyi.com/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <lastmod>2020-11-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.huaxianyi.com/categories/technology/</loc>
-    <lastmod>2020-11-18</lastmod>
+    <lastmod>2020-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
